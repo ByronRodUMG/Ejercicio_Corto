@@ -12,6 +12,6 @@ namespace Ejercicio_Corto.Interface
         int Edad { get; }
 
         void saludar();
-        void CumplirAños(int edad);
+        void CumplirAños();
     }
 }

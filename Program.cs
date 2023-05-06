@@ -3,4 +3,4 @@
 Persona persona = new Persona(30, "Byron");
 
 persona.saludar();
-persona.CumplirAños(persona.Edad);
+persona.CumplirAños();

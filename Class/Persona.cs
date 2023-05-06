@@ -13,9 +13,9 @@ namespace Ejercicio_Corto.Class
 
         public int Edad { get; }
 
-        public void CumplirAños(int edad)
+        public void CumplirAños()
         {
-            Console.WriteLine($"Tienes {edad} años, ya casi cumples {edad+1}.");
+            Console.WriteLine($"Tienes {Edad} años, ya casi cumples {Edad+1}.");
         }
 
         public void saludar()
